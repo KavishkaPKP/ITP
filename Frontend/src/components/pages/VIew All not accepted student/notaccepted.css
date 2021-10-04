@@ -1,0 +1,152 @@
+
+  .contact-section{
+    background: #313840;
+    /* padding: 80px 0; */
+    text-align: center;
+    /* box-sizing: border-box; */
+    font-family: "montserrat",sans-serif;
+    margin-top: 50px;
+  }
+  
+  .inner-width{
+    max-width: auto;
+    height: auto;
+    padding: 0 20px;
+    margin-left: 400px;
+  }
+
+  .titleCN{
+  text-align: center;
+  color: #fff; 
+  font-size: 30px;
+  }
+
+  .textpost{
+    color: #fff; 
+    margin-top: 10px;
+    margin-left: 50px;
+    font-size: 20px;
+   text-align: center;
+  }
+  
+  .contact-section h1{
+    font-size: 20px;
+    color: #888;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 400;
+  }
+  
+  .name,.email,.message{
+    background: none;
+    border:none;
+    outline: none;
+    border-bottom: 1px solid;
+    /* color: #888; */
+    color: white;
+    padding: 10px 6px;
+    font-size: 14px;
+    margin-bottom: 40px;
+  }
+  
+  .name{
+    float: left;
+    width: 270px;
+  }
+  
+  .email{
+    float: right;
+    width: 270px;
+  }
+  
+  .message{
+    min-width: 100%;
+    max-width: 100%;
+  }
+  
+  
+  /* .contact-section button{
+    background: none;
+    color: #70a1ff;
+    border: 1px solid #70a1ff;
+    padding: 12px 40px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    font-size: 14px;
+    transition: 0.4s linear;
+    cursor: pointer;
+  }
+  
+  .contact-section button:hover{
+    background: #70a1ff;
+    color: #fff;
+  } */
+  
+  
+  @media screen and (max-width:600px){
+    .name,.email{
+      width: 100%;
+    }
+  }
+
+  .ProfileIcons{
+      /* border-radius: 50%;
+      width: 60px;
+      height: 60px; */
+      margin-left: -1350px;
+      margin-top: -55px;
+  }
+
+  .ProfileIcons img{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    /* margin-left: -1400px;
+    margin-top: -65px; */
+}
+.ProfileIcons span{
+   color: #fff;
+   margin-left: 10px;
+
+}
+.ProfileIcons h6{
+    color: #fff;
+    margin-left: 57px;
+    margin-top: -18px;
+ }
+
+ .footerSt{
+   margin-top: 10px;
+ }
+  
+
+ 
+
+
+
+
+ form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
